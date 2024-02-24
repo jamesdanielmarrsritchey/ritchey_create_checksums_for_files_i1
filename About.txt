@@ -1,0 +1,14 @@
+Name:Ritchey Create Checksums For Files
+Implementation:1
+Version:1
+Long Identifier:Ritchey Create Checksums For Files i1 v1
+Short Identifier:RCCFFi1v1
+Description:Ritchey Create Checksums For Files will hash files in a directory, and save those checksums to a checksums file.
+History:
+ - Project started February 24, 2024.
+ - Version 1 completed February 24, 2024.
+Author:James Daniel Marrs Ritchey
+License:Ritchey Permissive License v16
+Notes:
+ - When searching for files the checksum files themselves are not hashed.
+ - Existing checksumfiles are not written to, but can be replaced with new ones optionally.
